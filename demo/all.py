@@ -5,7 +5,7 @@ from HTMLTestRunner import HTMLTestRunner
 from unittest import runner
 
 
-print(1111,os.getcwd())
+
 if __name__ == '__main__':
     suite = unittest.TestSuite()
 
