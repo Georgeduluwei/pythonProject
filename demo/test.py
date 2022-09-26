@@ -26,7 +26,8 @@ def read_excel():
 @ddt
 class TestCase01(Test01):
     #    *是拆分列表的
-    @data(*read_excel())
+    @data(*read_excel())#以列表的方式解析这个值
+
     @unpack
     def test01_login(self ,username ,password):
         driver = webdriver.Chrome()
